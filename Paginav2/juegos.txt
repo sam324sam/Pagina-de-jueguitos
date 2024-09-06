@@ -1,5 +1,0 @@
-/Juegos/Conecta 4/index.html
-/Juegos/Hundir La Flota/index.html
-/Juegos/Juego de Memoria/index.html
-/Juegos/Tres en Raya/index.html
-/Juegos/Simon Dice/index.html
