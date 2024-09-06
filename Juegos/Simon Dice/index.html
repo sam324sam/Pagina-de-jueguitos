@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon</title>
+</head>
+<body>
+    <link rel="stylesheet" href="Simon.css">
+    <script src="SimonV2.js"></script>
+    <div id="contenedor">
+        <div id="tablero">
+            <button class="celda" style="background-color: yellowgreen;" onmouseover="estaElRaton(this)" onmouseout="noEstaElRaton(this)"onclick="clickCelda(0,this)"></button>
+            <button class="celda" style="background-color: aqua;" onmouseover="estaElRaton(this)" onmouseout="noEstaElRaton(this)"onclick="clickCelda(1,this)"></button>
+            <button class="celda" style="background-color: yellow;" onmouseover="estaElRaton(this)" onmouseout="noEstaElRaton(this)"onclick="clickCelda(2,this)"></button>
+            <button class="celda" style="background-color: violet;" onmouseover="estaElRaton(this)" onmouseout="noEstaElRaton(this)"onclick="clickCelda(3,this)"></button>
+            <button class="celda" style="background-color: blue;" onmouseover="estaElRaton(this)" onmouseout="noEstaElRaton(this)"onclick="clickCelda(4,this)"></button>
+            <button class="celda" style="background-color: sienna;" onmouseover="estaElRaton(this)" onmouseout="noEstaElRaton(this)"onclick="clickCelda(5,this)"></button>
+            <button class="celda" style="background-color: blueviolet;" onmouseover="estaElRaton(this)" onmouseout="noEstaElRaton(this)"onclick="clickCelda(6,this)"></button>
+            <button class="celda" style="background-color: red;" onmouseover="estaElRaton(this)" onmouseout="noEstaElRaton(this)"onclick="clickCelda(7,this)"></button>
+            <button class="celda" style="background-color: gray;" onmouseover="estaElRaton(this)" onmouseout="noEstaElRaton(this)"onclick="clickCelda(8,this)"></button>
+        </div>
+        <div id="ganarPerder"><img src="Ganar.webp" id="ganar"><img src="perde.webp" id="perder"></div>
+    </div>
+    <button id="empezar" onclick="empezar()">Empezar</button> Nivel <input type="number" id="nivel" oninput="cambiarVariable()">
+</body>
+</html>
