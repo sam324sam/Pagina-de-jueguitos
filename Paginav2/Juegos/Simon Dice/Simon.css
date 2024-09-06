@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+#contenedor {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#tablero {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(3, 80px);
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.celda {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #333;
+    cursor: pointer;
+    opacity: 0.2;
+    
+}
+
+.celda:hover {
+    transform: scale(1.1);
+}
+
+#ganarPerder {
+    margin-left: 10px;
+    height: 249px;
+    width: 200px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    border: solid 2px black;
+}
+
+img{
+    margin: 5px;
+    height: 80%;
+    width: 80%;
+    opacity: 0;
+}
+
+#perder{
+    position: relative;
+    margin-top: -249px;
+}
+
+#empezar {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#empezar:hover {
+    background-color: #45a049;
+}
+
+#nivel {
+    width: 50px;
+    margin-left: 10px;
+    border: solid 2px black;
+}

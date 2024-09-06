@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body onload="colocarTablero()">
+        <link rel="stylesheet" href="Hundir.css">
+        <script src="Hundir.js"></script>
+        <div id="central">
+        <div id="encabezado">
+            <header id="encabezado"><h1>Jueguitos Random</h1></header>
+            
+        <div id="contenedorOri">
+            <button id="vertical" onclick="cambiarOrientacion(this,document.getElementById('horizontal'))">V</button>
+            <button id="horizontal" onclick="cambiarOrientacion(this,document.getElementById('vertical'))">H</button>
+        </div>
+        <div id="contenedorCoor">
+            <div class="coordenadas">
+                <div class="coordenada">A</div>
+                <div class="coordenada">B</div>
+                <div class="coordenada">C</div>
+                <div class="coordenada">D</div>
+                <div class="coordenada">E</div>
+                <div class="coordenada">F</div>
+                <div class="coordenada">G</div>
+                <div class="coordenada">H</div>
+                <div class="coordenada">I</div>
+                <div class="coordenada">J</div>
+            </div>
+            <div class="coordenadas">
+                <div class="coordenada">A</div>
+                <div class="coordenada">B</div>
+                <div class="coordenada">C</div>
+                <div class="coordenada">D</div>
+                <div class="coordenada">E</div>
+                <div class="coordenada">F</div>
+                <div class="coordenada">G</div>
+                <div class="coordenada">H</div>
+                <div class="coordenada">I</div>
+                <div class="coordenada">J</div>
+            </div>
+        </div>
+        <div id="contenedorNum">
+            <div class="numeros-fila">
+                <div class="numero-fila">1</div>
+                <div class="numero-fila">2</div>
+                <div class="numero-fila">3</div>
+                <div class="numero-fila">4</div>
+                <div class="numero-fila">5</div>
+                <div class="numero-fila">6</div>
+                <div class="numero-fila">7</div>
+                <div class="numero-fila">8</div>
+                <div class="numero-fila">9</div>
+                <div class="numero-fila">10</div>
+            </div>
+            <div class="numeros-fila">
+                <div class="numero-fila">1</div>
+                <div class="numero-fila">2</div>
+                <div class="numero-fila">3</div>
+                <div class="numero-fila">4</div>
+                <div class="numero-fila">5</div>
+                <div class="numero-fila">6</div>
+                <div class="numero-fila">7</div>
+                <div class="numero-fila">8</div>
+                <div class="numero-fila">9</div>
+                <div class="numero-fila">10</div>
+            </div>
+        </div>
+        <div id="contenedor">
+            <div id="tableroJ"></div>
+            <div id="tableroIA"></div>
+        </div>
+            <div class="juego">
+                <a href="/Principal.html" class="jugar">
+                    <center>Regresar</center>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
